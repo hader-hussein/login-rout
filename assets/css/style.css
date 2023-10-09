@@ -136,7 +136,7 @@ canvas {
 	border-radius: 20px;
 	border: 1px solid #9a8c8c4a;
 	backdrop-filter: blur(0px);
-
+	position: relative;
 }
 .user{
 	position: absolute;
