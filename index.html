@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="author" content="hadeer hussein">
+  <meta property="og:title" content="raito"/>
+  <meta property="og:type" content="Website"/>
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="assets/img/LOGO.png"/>
+  <link href="assets/img/LOGO.png"  rel="shortcut icon"/>
+  <title>Login</title>
+ 
+  <!-- Template Main CSS File -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="button-dark">
+    <div>
+      <label class="switch">
+        <input type="checkbox" id='switch-theme'>
+        <span class="slider round"></span>
+      </label>
+    </div>
+ </div>
+  <div id="particles-js"></div>
+
+  <div class="container">
+
+    <div class="row head d-flex justify-content-between align-items-center mx-0">
+      <div class="col">
+        <img class="logo"  src="assets/img/LOGO.png" alt="logo">
+      </div>
+
+      <div class="col text-end"> 
+        <img  class="logo"  src="./assets/img/logo ar.png"  alt="logo-Client">
+      </div>
+    </div>     
+
+
+<!--form-->
+            
+    <div class="component-login row mx-0 mt-3 pt-5">
+     
+      <section class="login_box col-lg-5 col-md-8 m-auto">
+        <div class="user">
+          <ion-icon  class="icon" name="person-outline"></ion-icon>
+        </div>
+        <form class="row form-component pt-5">
+          <h2 class="p-3 text-hader pb-4"> الدخول الى نظام رايتو المحاسبي</h2>
+          <div class="input-group input-group-lg mb-3">
+            <span class="input-group-text" id="basic-addon1"> <ion-icon class="" name="person-outline"></ion-icon></span>
+            <input type="text" class="form-control" placeholder="Username" required>
+          </div>
+          <div class="input-group input-group-lg mb-3">
+            <span class="input-group-text" id="basic-addon1">  <ion-icon class="" name="lock-closed-outline"></ion-icon></span>
+            <input type="password" class="form-control" placeholder="password" required>
+          </div>
+      
+          <div class="input-group input-group-lg mb-3 mt-4">
+            <span class="input-group-text" id="basic-addon1">        
+               <ion-icon class="" name="calendar-outline"></ion-icon>
+            </span>
+            <input type="text" class="form-control" placeholder="fiscal year" required>
+          </div>
+          <div class="col-md-6">
+            <a href="#" class="link-password">Forgot your password?</a>
+          </div>
+          <div class="col-md-6 form-chech">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+              <label class="form-check-label" for="invalidCheck">
+                remember me
+              </label>
+             
+            </div>
+          </div>
+          <div class="col-12 reg mb-3">
+            <div class="g-recaptcha" data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"></div>
+  
+       
+          </div>
+          <div class="col-12 text-center">
+            <button class="btn btn-login" type="submit">Log in </button>
+          </div>
+        </form>
+       
+      </section>
+ 
+  </div>
+  
+
+  </div>
+	
+  <!---->
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src='https://www.google.com/recaptcha/api.js'></script>
+  <!-- Template Main JS File -->
+  <script src="./assets/js/dark.js"></script>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
